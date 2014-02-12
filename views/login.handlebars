@@ -1,62 +1,78 @@
-<!DOCTYPE html>
-<!-- This site was created in Webflow. http://www.webflow.com-->
-<!-- Last Published: Wed Feb 12 2014 03:00:05 GMT+0000 (UTC) -->
-<html data-wf-site="52f00e27a8b031ee5c000058">
-<head>
-  <meta charset="utf-8">
-  <title>Alex's first site - Login</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="css/normalize.css">
-  <link rel="stylesheet" type="text/css" href="css/webflow.css">
-  <link rel="stylesheet" type="text/css" href="css/thrifty.webflow.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
-  <script>
-    WebFont.load({
-      google: {
-        families: ["Montserrat:400,700","Bitter:400,700"]
-      }
-    });
-  </script>
-  <script>
-    if (/mobile/i.test(navigator.userAgent)) document.documentElement.className += ' w-mobile';
-  </script>
-  <link rel="shortcut icon" type="image/x-icon" href="https://y7v4p6k4.ssl.hwcdn.net/placeholder/favicon.ico">
-  <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs5shiv/3.75shiv.min.js"></script><![endif]-->
-  <link rel="apple-touch-icon" href="https://y7v4p6k4.ssl.hwcdn.net/51d1bb05fc804b2621000001/51e06f0756878bb26a000008_webclip-slate.png">
-</head>
-<body>
-  <div class="login">
-    <div class="w-nav" data-collapse="medium" data-animation="default" data-duration="400"></div>
-  </div>
-  <div class="w-form">
-    <form name="email-form" data-name="Email Form">
+  <!DOCTYPE html>
+  <!-- This site was created in Webflow. http://www.webflow.com-->
+  <!-- Last Published: Wed Feb 12 2014 03:00:05 GMT+0000 (UTC) -->
+  <html data-wf-site="52f00e27a8b031ee5c000058">
+  <head>
+    <meta charset="utf-8">
+    <title>Alex's first site - Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/webflow.css">
+    <link rel="stylesheet" type="text/css" href="css/thrifty.webflow.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
+    <script>
+      WebFont.load({
+        google: {
+          families: ["Montserrat:400,700","Bitter:400,700"]
+        }
+      });
+    </script>
+    <script>
+      if (/mobile/i.test(navigator.userAgent)) document.documentElement.className += ' w-mobile';
+    </script>
+    <link rel="shortcut icon" type="image/x-icon" href="https://y7v4p6k4.ssl.hwcdn.net/placeholder/favicon.ico">
+    <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs5shiv/3.75shiv.min.js"></script><![endif]-->
+    <link rel="apple-touch-icon" href="https://y7v4p6k4.ssl.hwcdn.net/51d1bb05fc804b2621000001/51e06f0756878bb26a000008_webclip-slate.png">
+  </head>
+  <body>
+    <div class="login">
       <div class="w-nav" data-collapse="medium" data-animation="default" data-duration="400"></div>
-      <div class="w-nav" data-collapse="medium" data-animation="default" data-duration="400" data-contain="1">
-        <div class="w-container navedited">
-          <a class="w-nav-brand"></a>
-          <nav class="w-nav-menu" role="navigation"><a class="w-nav-link" href="/">Home</a><a class="w-nav-link" href="browse">Browse</a><a class="w-nav-link" href="findus">Find Us</a><a class="w-nav-link" href="calendar">Calendar</a><a class="w-nav-link" href="wishlist">My Wishlist</a>
-            <a
-            class="w-nav-link" href="help">FAQ</a>
-          </nav>
-          <div class="w-nav-button">
-            <div class="w-icon-nav-menu icon"></div>
+    </div>
+    <div class="w-form">
+      <form name="email-form" data-name="Email Form">
+        <div class="w-nav" data-collapse="medium" data-animation="default" data-duration="400"></div>
+        <div class="w-nav" data-collapse="medium" data-animation="default" data-duration="400" data-contain="1">
+
+          <div class="w-container navedited">
+            <a class="w-nav-brand"></a>
+            <nav class="w-nav-menu" role="navigation"><a class="w-nav-link" href="/">Home</a><a class="w-nav-link" href="browse">Browse</a><a class="w-nav-link" href="findus">Find Us</a><a class="w-nav-link" href="calendar">Calendar</a><a class="w-nav-link" href="wishlist">My Wishlist</a>
+              <a
+              class="w-nav-link" href="help">FAQ</a>
+            </nav>
+            <div class="w-nav-button">
+              <div class="w-icon-nav-menu icon"></div>
+            </div>
           </div>
         </div>
+
+        <label class="formtext" for="email">Email:&nbsp;</label>
+        <input class="w-input" type="email" placeholder="Enter your email address" name="email" data-name="Email" required="required"></input>
+
+
+        <label class="formtext" for="name">Password:</label>
+        <input class="w-input" type="text" placeholder="Enter your password" name="name" data-name="Name"></input>
+
+        <a class="button" href="browse">Submit</a>
+
+      </form>
+
+
+
+
+      <div class="w-form-done">
+        <p>Thank you! Your submission has been received!</p>
+
       </div>
-      <label class="formtext" for="name">Email:&nbsp;</label>
-      <input class="w-input" type="text" placeholder="Enter your name" name="name" data-name="Name"></input>
-      <label class="formtext" for="email">Password:</label>
-      <input class="w-input" type="email" placeholder="Enter your email address" name="email" data-name="Email" required="required"></input>
-      <input class="w-button second-button" type="submit" value="Submit" data-wait="Please wait..."></input>
-    </form>
-    <div class="w-form-done">
-      <p>Thank you! Your submission has been received!</p>
+
+
+
+      <div class="w-form-fail">
+        <p>Oops! Something went wrong while submitting the form :(</p>
+      </div>
+
+
     </div>
-    <div class="w-form-fail">
-      <p>Oops! Something went wrong while submitting the form :(</p>
-    </div>
-  </div>
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-  <script type="text/javascript" src="js/webflow.js"></script>
-</body>
-</html>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="js/webflow.js"></script>
+  </body>
+  </html>
