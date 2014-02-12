@@ -9,6 +9,7 @@
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/webflow.css">
   <link rel="stylesheet" type="text/css" href="css/thrifty.webflow.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
   <script>
     WebFont.load({
@@ -37,10 +38,21 @@
       </div>
     </div>
   </div>
-  <h1 class="browseheading">Browse</h1><a href="itemdetail">Text Link</a>
-  <div class="w-container">
-    <img src="images/Screen%20Shot%202014-02-07%20at%2012.21.18%20AM.png" height="400" alt="52f497a4a560b0da71000872_Screen%20Shot%202014-02-07%20at%2012.21.18%20AM.png">
-  </div>
+  <h1 class="browseheading">Browse</h1>
+
+  <table style="width:300px">
+  {{#each group}}
+      <tr>
+      {{#each item}}
+        <td>
+          <img src={{imageURL}} style="width:100px"/>
+          <figcaption><a href="itemdetail">{{name}}</a></figcaption>
+        </td>
+      {{/each}}
+      <tr/>
+  {{/each}}
+ </table>
+
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script type="text/javascript" src="js/webflow.js"></script>
 </body>
