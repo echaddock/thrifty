@@ -4,11 +4,11 @@
 <html data-wf-site="52f00e27a8b031ee5c000058">
 <head>
   <meta charset="utf-8">
-  <title>Alex's first site - Item Detail</title>
+  <title>Item Detail</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="css/normalize.css">
-  <link rel="stylesheet" type="text/css" href="css/webflow.css">
-  <link rel="stylesheet" type="text/css" href="css/thrifty.webflow.css">
+  <link rel="stylesheet" type="text/css" href="/css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="/css/webflow.css">
+  <link rel="stylesheet" type="text/css" href="/css/thrifty.webflow.css">
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
   <script>
     WebFont.load({
@@ -36,14 +36,15 @@
       </div>
     </div>
   </div>
-  <h1>Floral Blouse</h1>
+  <h1>{{itemName}}</h1>
   <div class="w-nav" data-collapse="medium" data-animation="default" data-duration="400"></div>
   <div class="w-nav" data-collapse="medium" data-animation="default" data-duration="400" data-contain="1"></div>
-  <img class="imageblock" src="images/floral.jpg" width="205" alt="52f3eb1e73df7f296b0011a8_floral.jpg">
+  <img class="imageblock" src={{imageURL}} width="205" alt="image">
   <h4>Information</h4><a class="button wishlistbutton" href="wishlist">+</a>
-  <p>Size: Small
-    <br>Condition: Gently worn
-    <br>Color: Patterned</p>
+  <p>Price: {{price}}
+    <br>Size: {{size}}
+    <br>Condition: {{condition}}
+    <br>Color: {{color}}</p>
   <div class="w-form">
     <form name="email-form" data-name="Email Form" method="post" data-redirect="/response">
       <label class="formlabel" for="name">Have questions about this item? Ask us here!</label>
@@ -60,6 +61,6 @@
     </div>
   </div>
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-  <script type="text/javascript" src="js/webflow.js"></script>
+  <script type="text/javascript" src="/js/webflow.js"></script>
 </body>
 </html>
