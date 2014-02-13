@@ -3,19 +3,28 @@
 		{ "item":
     [    
       {   
-		  	"name": "Doug Engelbart",
-		  	"description": "Has awesome pet mice",
-		  	"imageURL": "http://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Douglas_Engelbart_in_2008.jpg/972px-Douglas_Engelbart_in_2008.jpg"			
+		  	"name": "Trench Coat",
+		  	"condition": "Worn twice",
+		  	"size": "Medium",
+		  	"color": "Black",
+		  	"price": "$20.00",
+		  	"imageURL": "http://media-cache-ak0.pinimg.com/736x/b9/20/2a/b9202a7a448430a631f3f69958920ccf.jpg"			
 		  },
 		  {
-		  	"name": "Ivan Sutherland",
-		  	"description": "Great at sketching",
-		  	"imageURL": "http://upload.wikimedia.org/wikipedia/commons/5/5c/Ivan_Sutherland_at_CHM.jpg"			
+		  	"name": "Black Retro Pants",
+		  	"condition": "Almost new",
+		  	"size": "Small",
+		  	"color": "Black with white patterns",
+		  	"price": "$10.00",		  	
+		  	"imageURL": "http://media-cache-ec0.pinimg.com/736x/c6/5e/0e/c65e0e47e17361d77565be9e02bb6003.jpg"			
 		  },
 	  	{
-	  		"name": "Lucy Suchman",
-	  		"description": "Loves Trukese navigators",
-	  		"imageURL": "http://upload.wikimedia.org/wikipedia/commons/d/df/Lucy_Suchman.jpeg"			
+	  		"name": "Floral Backpack",
+	  		"condition": "Used",
+		  	"size": "none",
+		  	"color": "Pattern",
+		  	"price": "$8.00",	
+	  		"imageURL": "http://media-cache-ec0.pinimg.com/736x/5e/05/43/5e0543ce0ea5526ea6a40d2c381d69a6.jpg"			
 	  	}
     ]
     },
@@ -23,19 +32,28 @@
     { "item":
 		 [ 
      {
-			"name": "Vannevar Bush",
-			"description": "Has stellar associative memory",
-			"imageURL": "http://upload.wikimedia.org/wikipedia/commons/e/ea/Vannevar_Bush_portrait.jpg"			
+	  		"name": "Bow Heels",
+	  		"condition": "Used",
+		  	"size": "6",
+		  	"color": "White with a splash of pink and orange",
+		  	"price": "$12.00",
+			"imageURL": "http://media-cache-ec0.pinimg.com/736x/d7/63/c6/d763c65aa981c90eae4744405537be00.jpg"			
 		  },
 		  {
-			"name": "Grace Hopper",
-			"description": "Only friend with a Navy ship named after them",
-			"imageURL": "http://www.personal.psu.edu/djd5202/gHop.jpg"
+	  		"name": "Blue Top",
+	  		"condition": "Almost new",
+		  	"size": "Small",
+		  	"color": "Navy Blue",
+		  	"price": "$9.00",
+			"imageURL": "http://media-cache-ak0.pinimg.com/736x/cb/1e/4a/cb1e4ab3b996dd926e7234185f03f96c.jpg"
 		  },
 		  {
-			"name": "Allen Newell",
-			"description": "Really into psychology",
-			"imageURL": "http://www.nap.edu/html/biomems/photo/anewell.JPG"
+	  		"name": "Lace Dress",
+	  		"condition": "Worn once",
+		  	"size": "Small",
+		  	"color": "Cream",
+		  	"price": "$14.00",
+			"imageURL": "http://media-cache-ec0.pinimg.com/736x/2e/bf/03/2ebf03f1fc61ee9a0a3cd76f274f2a03.jpg"
 		  }
     ]
    }
