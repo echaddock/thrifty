@@ -23,7 +23,7 @@ var index = require('./routes/index'),
 var app = express();
 
 // all environments
-app.set('port', process.env.PORT || 3000);
+app.set('port', process.env.PORT || 8080);
 app.set('views', path.join(__dirname, 'views'));
 app.engine('handlebars', handlebars());
 app.set('view engine', 'handlebars');
@@ -50,7 +50,7 @@ app.get('/calendar', calendar.view);
 app.get('/wishlist', wishlist.view);
 app.get('/help', help.view);
 app.get('/login', login.view);
-app.get('/itemdetail', itemdetail.view);
+app.get('/itemdetail/:name', itemdetail.viewItem);
 
 // Example route
 // app.get('/users', user.list);
