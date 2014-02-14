@@ -39,13 +39,9 @@
   </div>
     <h1 class="browseheading">My Wishlist</h1>
 
-    <div class="row">
-      <img class="imageblock" src={{imageURL}} width="205" alt="image">
-      <img class="imageblock" src={{imageURL}} width="205" alt="image">
-      <img class="imageblock" src={{imageURL}} width="205" alt="image">
-      <img class="imageblock" src={{imageURL}} width="205" alt="image">
-
-    </div>
+      {{#each wishlist}}
+        <img class="imageblock" src={{imageURL}} width="205" alt="image"/>
+      {{/each}}
 
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script type="text/javascript" src="js/webflow.js"></script>
