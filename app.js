@@ -15,7 +15,8 @@ var index = require('./routes/index'),
     login = require('./routes/login'),
     wishlist = require('./routes/wishlist'),
     help = require('./routes/help'),
-    itemdetail = require('./routes/itemdetail');
+    itemdetail = require('./routes/itemdetail'),
+    response = require('./routes/response');
 
 // Example route
 // var user = require('./routes/user');
@@ -51,6 +52,7 @@ app.get('/wishlist', wishlist.view);
 app.get('/help', help.view);
 app.get('/login', login.view);
 app.get('/itemdetail/:name', itemdetail.viewItem);
+app.get('/response', response.view);
 
 // Example route
 // app.get('/users', user.list);
