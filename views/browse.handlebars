@@ -9,7 +9,7 @@
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/webflow.css">
   <link rel="stylesheet" type="text/css" href="css/thrifty.webflow.css">
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
   <script>
     WebFont.load({
@@ -40,7 +40,8 @@
   </div>
   <h1 class="browseheading">Browse</h1>
 
-  <table style="width:300px">
+  <table style="width:300px" class="table table-striped">
+  <tbody>
   {{#each group}}
       <tr>
       {{#each item}}
@@ -51,6 +52,7 @@
       {{/each}}
       <tr/>
   {{/each}}
+</tbody>
  </table>
 
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
