@@ -1,0 +1,131 @@
+/* base */
+body, html {
+  width: 100%;
+  height: 100%;
+}
+
+.inner {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/*----------------------*\
+
+        Components
+      
+\*----------------------*/
+/*systemMessage*/
+#systemMessageContainer {
+  position: absolute;
+  top: -200px;
+  display: block;
+  width: 100%;
+  background-color: #83b7b3;
+  border-bottom: solid 2px #73ada9;
+  animation: slideUp 0.7s;
+  -moz-animation: slideUp 0.7s;
+  /* Firefox */
+  -webkit-animation: slideUp 0.7s;
+  /* Safari and Chrome */
+  -o-animation: slideUp 0.7s;
+  /* Opera */
+}
+#systemMessageContainer #systemMessage {
+  padding: 1.25em;
+  color: #f8f8f8;
+  font-family: "Gill Sans", Gill Sans, sans-serif;
+  font-size: 1.2em;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+#systemMessageContainer.revealed {
+  top: 0px;
+  animation: slideDown 0.5s;
+  -moz-animation: slideDown 0.5s;
+  /* Firefox */
+  -webkit-animation: slideDown 0.5s;
+  /* Safari and Chrome */
+  -o-animation: slideDown 0.5s;
+  /* Opera */
+}
+
+@keyframes slideDown {
+  from {
+    top: -200px;
+  }
+
+  to {
+    top: 0px;
+  }
+}
+@-moz-keyframes slideDown {
+  from {
+    top: -200px;
+  }
+
+  to {
+    top: 0px;
+  }
+}
+@-webkit-keyframes slideDown {
+  from {
+    top: -200px;
+  }
+
+  to {
+    top: 0px;
+  }
+}
+@-o-keyframes slideDown {
+  from {
+    top: -200px;
+  }
+
+  to {
+    top: 0px;
+  }
+}
+@keyframes slideUp {
+  from {
+    top: 0px;
+  }
+
+  to {
+    top: -200px;
+  }
+}
+@-moz-keyframes slideUp {
+  from {
+    top: 0px;
+  }
+
+  to {
+    top: -200px;
+  }
+}
+@-webkit-keyframes slideUp {
+  from {
+    top: 0px;
+  }
+
+  to {
+    top: -200px;
+  }
+}
+@-o-keyframes slideUp {
+  from {
+    top: 0px;
+  }
+
+  to {
+    top: -200px;
+  }
+}
+#button_wrapper {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}

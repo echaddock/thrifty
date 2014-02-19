@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/webflow.css">
     <link rel="stylesheet" type="text/css" href="css/thrifty.webflow.css">
+    <link rel="stylesheet" type="text/css" href="css/notification.css">
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
     <script>
       WebFont.load({
@@ -45,20 +46,27 @@
           </div>
         </div>
 
-        <h1>Log In -- Sign Up</h1>
+        <h1 style="font-size: 30px;">Log In -- Sign Up</h1>
 
         <center><input style="width:80%;" class="w-input" type="email" placeholder="Enter your email address"  name="email" data-name="Email" required="required"></input></center>
 
 
         <center><input style="width:80%;" type="password" class="w-input" type="text" placeholder="Enter your password" name="name" data-name="Name"></input></center>
 
-        <center><a class="button" href="browse">Submit</a></center>
+       <!-- First button from webflow
+        <center><a class="button" id="not1" href="browse">Submit</a></center>
+-->
+
+        <!--Notification Button-->
+        <div id='button_wrapper'>
+    <center><button onclick="window.location.href='/browse'" id="not1">Submit</button></center>
+  </div>
 
       </form>
 
 
 
-
+      <!--
       <div class="w-form-done">
         <p>Thank you! Your submission has been received!</p>
 
@@ -68,11 +76,12 @@
 
       <div class="w-form-fail">
         <p>Oops! Something went wrong while submitting the form :(</p>
-      </div>
+      </div>-->
 
 
     </div>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script type="text/javascript" src="js/webflow.js"></script>
+    <script type="text/javascript" src="js/notification.js"></script>
   </body>
   </html>
