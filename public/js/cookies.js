@@ -25,8 +25,6 @@ function checkCookie()
      systemMessage.sendMessage(0, 'You have successfully signed in!');
      document.cookie = "username=;";
   }
-  else
-    alert("cookie not set");
 }
 
 /*
