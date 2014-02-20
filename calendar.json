@@ -3,25 +3,29 @@
   {
     "date":"Feb 18-21, 2014",
     "location":"Library Walk, UCSD",
-    "mapURL":"https://www.google.com/maps/embed?pb=!1m22!1m12!1m3!1d53611.52561859279!2d-117.27190062062857!3d32.879117710289755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m7!1i0!3e6!4m0!4m3!3m2!1d32.879046599999995!2d-117.23762869999999!5e0!3m2!1sen!2sus!4v1392848777215"
+    "mapURL":"https://www.google.com/maps/embed?pb=!1m22!1m12!1m3!1d53611.52561859279!2d-117.27190062062857!3d32.879117710289755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m7!1i0!3e6!4m0!4m3!3m2!1d32.879046599999995!2d-117.23762869999999!5e0!3m2!1sen!2sus!4v1392848777215",
+    "calendarURL":"http://www.google.com/calendar/event?action=TEMPLATE&text=Thrifty%20Event&dates=20140218/20140221&details=Come%20by%20and%20shop%20from%20nearby%20thrift%20stores.%20This%20is%20%20catered%20for%20only%20UCSD%20students!!%20We%20also%20take%20clothes%20for%20donation.%20&location=Library%20Walk%2C%20UCSD&trp=true&sprop=&sprop=name:\" target=\"_blank\""
   },
 
   {
      "date":"March 17-20, 2014",
      "location":"Royce Quad, UCLA",
-     "mapURL":"https://www.google.com/maps/embed?pb=!1m22!1m12!1m3!1d52873.80566627283!2d-118.46476757116227!3d34.07943734272276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m7!1i0!3e6!4m0!4m3!3m2!1d34.0723331!2d-118.4422195!5e0!3m2!1sen!2sus!4v1392848417964"
+     "mapURL":"https://www.google.com/maps/embed?pb=!1m22!1m12!1m3!1d52873.80566627283!2d-118.46476757116227!3d34.07943734272276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m7!1i0!3e6!4m0!4m3!3m2!1d34.0723331!2d-118.4422195!5e0!3m2!1sen!2sus!4v1392848417964",
+     "calendarURL": "http://www.google.com/calendar/event?action=TEMPLATE&text=Thrifty%20Event&dates=20140317/20140220&details=Come%20by%20and%20shop%20from%20nearby%20thrift%20stores.%20This%20is%20catered%20for%20only%20UCLA%20students!!%20We%20also%20take%20clothes%20for%20donation.%20&location=Royce%20Quad%2C%20UCLA&trp=true&sprop=&sprop=name:\" target=\"_blank\""
   },
 
   {
     "date": "March 24-26, 2014",
     "location": "Aztec Center, SDSU",
-    "mapURL": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3354.66112261778!2d-117.07612749999998!3d32.7747253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d956810671888f%3A0x57c4704f6ec6424!2sSan+Diego+State+University%3A+Aztec+Recreation+Center!5e0!3m2!1sen!2sus!4v1392853750361"
+    "mapURL": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3354.66112261778!2d-117.07612749999998!3d32.7747253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d956810671888f%3A0x57c4704f6ec6424!2sSan+Diego+State+University%3A+Aztec+Recreation+Center!5e0!3m2!1sen!2sus!4v1392853750361",
+    "calendarURL": "http://www.google.com/calendar/event?action=TEMPLATE&text=Thrifty%20Event&dates=20140324/20140326&details=Come%20by%20and%20shop%20from%20nearby%20thrift%20stores.%20This%20is%20catered%20for%20only%20SDSU%20students!!%20We%20also%20take%20clothes%20for%20donation.%20&location=Aztec%20Center%2C%20SDSU&trp=true&sprop=&sprop=name:\" target=\"_blank\""
   },
 
   {
-    "date": "April 7 - 8, 2014",
+    "date": "April 7-8, 2014",
     "location": "Bishop Leo T. Maher Hall, USD",
-    "mapURL": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3354.7514644713096!2d-117.1896631!3d32.772328650000006!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80deaab8ea0df2e7%3A0x72197bb0451ed94!2sMaher+Hall!5e0!3m2!1sen!2sus!4v1392854452075"
+    "mapURL": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3354.7514644713096!2d-117.1896631!3d32.772328650000006!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80deaab8ea0df2e7%3A0x72197bb0451ed94!2sMaher+Hall!5e0!3m2!1sen!2sus!4v1392854452075",
+    "calendarURL":"http://www.google.com/calendar/event?action=TEMPLATE&text=Thrifty%20Event&dates=20140407/20140408&details=Come%20by%20and%20shop%20from%20nearby%20thrift%20stores.%20This%20is%20catered%20for%20only%20USD%20students!!%20We%20also%20take%20clothes%20for%20donation.%20&location=Bishop%20Leo%20T.%20Maher%20Hall%2C%20USD&trp=true&sprop=&sprop=name:\" target=\"_blank\""
   }    
 ]
 }
