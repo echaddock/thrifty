@@ -12,4 +12,4 @@ CSE 170 Project for UCSD Winter 2014
 =======
 
 
-Done by Elizabeth Chaddock - Future Yahoo Software Engineer, Alex Rodriguez - Social Maven, CODE2040 Fellow, Findery Software Intern, Iris Chin - 
+Done by Elizabeth Chaddock - Future Yahoo Software Engineer, Alex Rodriguez - Social Maven, CODE2040 Fellow, Findery Software Intern, Iris Chin - elephant
