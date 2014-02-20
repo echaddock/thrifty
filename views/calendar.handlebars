@@ -51,7 +51,12 @@
       <tbody>
         {{#each calendar}}
         <tr>
-          <td>{{date}} <br> {{location}}</td>
+          <td>{{date}} <br> {{location}}<br>
+         <a href="http://www.google.com/calendar/event?action=TEMPLATE&text=Thrifty%20Bus%20Stop&dates=20140218/20140221&details=Attend%20a%20Thrifty%20event%20at%20nearest%20school%20location!%20&location=School&trp=true&sprop=&sprop=name:" target="_blank">Add to Google Calendar</a>
+
+
+
+</td>
           <td style="background-color: #93c0bd;"><iframe width='100%' height='150px' frameBorder='0' src={{mapURL}}></iframe></td>
         </tr>
         {{/each}}
