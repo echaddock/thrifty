@@ -1,5 +1,33 @@
 {
 	"group": [
+	    { "item":
+		 [ 
+     {
+	  		"name": "Bleached Flannel",
+	  		"condition": "Used",
+		  	"size": "M",
+		  	"color": "Pink and black plaid",
+		  	"price": "$12.00",
+			"imageURL": "http://media-cache-ec0.pinimg.com/736x/ce/7c/d2/ce7cd28bb7272d3df0770f1cf189d9df.jpg"			
+		  },
+		  {
+	  		"name": "Blue Top",
+	  		"condition": "Almost new",
+		  	"size": "Small",
+		  	"color": "Navy Blue",
+		  	"price": "$9.00",
+			"imageURL": "http://media-cache-ak0.pinimg.com/736x/cb/1e/4a/cb1e4ab3b996dd926e7234185f03f96c.jpg"
+		  },
+		  {
+	  		"name": "Lace Dress",
+	  		"condition": "Worn once",
+		  	"size": "Small",
+		  	"color": "Cream",
+		  	"price": "$14.00",
+			"imageURL": "http://media-cache-ec0.pinimg.com/736x/2e/bf/03/2ebf03f1fc61ee9a0a3cd76f274f2a03.jpg"
+		  }
+    ]
+   },
 		{ "item":
     [    
       {   
@@ -57,35 +85,6 @@
 	  		"imageURL": "http://media-cache-ak0.pinimg.com/736x/e2/6c/11/e26c11f60a82908a073fada2f008a2ba.jpg"			
 	  	}
     ]
-    },
-   
-    { "item":
-		 [ 
-     {
-	  		"name": "Bleached Flannel",
-	  		"condition": "Used",
-		  	"size": "M",
-		  	"color": "Pink and black plaid",
-		  	"price": "$12.00",
-			"imageURL": "http://media-cache-ec0.pinimg.com/736x/ce/7c/d2/ce7cd28bb7272d3df0770f1cf189d9df.jpg"			
-		  },
-		  {
-	  		"name": "Blue Top",
-	  		"condition": "Almost new",
-		  	"size": "Small",
-		  	"color": "Navy Blue",
-		  	"price": "$9.00",
-			"imageURL": "http://media-cache-ak0.pinimg.com/736x/cb/1e/4a/cb1e4ab3b996dd926e7234185f03f96c.jpg"
-		  },
-		  {
-	  		"name": "Lace Dress",
-	  		"condition": "Worn once",
-		  	"size": "Small",
-		  	"color": "Cream",
-		  	"price": "$14.00",
-			"imageURL": "http://media-cache-ec0.pinimg.com/736x/2e/bf/03/2ebf03f1fc61ee9a0a3cd76f274f2a03.jpg"
-		  }
-    ]
-   }
+    }
 	]
 }
