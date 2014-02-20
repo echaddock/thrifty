@@ -43,10 +43,9 @@
 
     <h1 class="browseheading">My Wishlist</h1>
       {{#each wishlist}}
-        <img class="imageblock" src={{imageURL}} width="205" alt="image"/>
-          <p>
-            <center><a href="itemdetail/{{name}}">{{name}} </a></center>
-          </p>
+        <img style="position:relative; left:-90px;" class="imageblock" width="105" alt="image"/>
+                    <a href="itemdetail/{{name}}">{{name}} </a>
+        <hr>         
       {{/each}}
 
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
