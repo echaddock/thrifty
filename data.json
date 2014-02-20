@@ -28,16 +28,46 @@
 	  	}
     ]
     },
+
+
+	{ "item":
+    [    
+      {   
+		  	"name": "Boots",
+		  	"condition": "New",
+		  	"size": "8.5W",
+		  	"color": "Brown",
+		  	"price": "$18.00",
+		  	"imageURL": "http://media-cache-ak0.pinimg.com/736x/c8/ef/b9/c8efb9a5da43b22f9a400ab0c5889c46.jpg"			
+		  },
+		  {
+		  	"name": "Sparkly Heels",
+		  	"condition": "Worn once",
+		  	"size": "7.5 W",
+		  	"color": "Bronze",
+		  	"price": "$15.00",		  	
+		  	"imageURL": "http://media-cache-ak0.pinimg.com/736x/01/31/27/013127334216f93bc802c2a28411b428.jpg"			
+		  },
+	  	{
+	  		"name": "Sandals",
+	  		"condition": "Used",
+		  	"size": "8W",
+		  	"color": "Mint",
+		  	"price": "$8.00",	
+	  		"imageURL": "http://media-cache-ak0.pinimg.com/736x/e2/6c/11/e26c11f60a82908a073fada2f008a2ba.jpg"			
+	  	}
+    ]
+    },
    
     { "item":
 		 [ 
      {
-	  		"name": "Bow Heels",
+	  		"name": "Bleached Flannel",
 	  		"condition": "Used",
-		  	"size": "6",
-		  	"color": "White with a splash of pink and orange",
+		  	"size": "M",
+		  	"color": "Pink and black plaid",
 		  	"price": "$12.00",
-			"imageURL": "http://media-cache-ec0.pinimg.com/736x/d7/63/c6/d763c65aa981c90eae4744405537be00.jpg"			
+			"imageURL": "http://media-cache-ec0.pinimg.com/736x/ce/7c/d2/ce7cd28bb7272d3df0770f1cf189d9df.jpg"			
 		  },
 		  {
 	  		"name": "Blue Top",
