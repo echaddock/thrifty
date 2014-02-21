@@ -10,6 +10,8 @@
   <link rel="stylesheet" type="text/css" href="/css/webflow.css">
   <link rel="stylesheet" type="text/css" href="/css/thrifty.webflow.css">
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
+  <script type="text/javascript" src="/js/cookies.js"></script>
+
   <script>
     WebFont.load({
       google: {
@@ -28,9 +30,19 @@
   <div class="w-nav" data-collapse="medium" data-animation="default" data-duration="400" data-contain="1">
     <div class="w-container navedited">
       <a class="w-nav-brand navedited" href="#"></a>
-      <nav class="w-nav-menu navedited" role="navigation"><a class="w-nav-link navedited" href="../">Home</a><a class="w-nav-link navedited" href="../browse">Browse</a><a class="w-nav-link navedited" href="../findus">Find Us</a><a class="w-nav-link navedited" href="../calendar">Calendar</a><a class="w-nav-link navedited" href="../wishlist">My Wishlist</a><a class="w-nav-link navedited"
+      <nav class="w-nav-menu navedited" role="navigation"><a class="w-nav-link navedited" href="../">Home</a><a class="w-nav-link navedited" href="../browse">Browse</a><a class="w-nav-link navedited" href="../findus">Find Us</a><a class="w-nav-link navedited" href="../calendar">Calendar</a>
+        <script>
+        if(getCookie("username") != "")
+           document.write("<a class=\"w-nav-link navedited\" href=\"wishlist\">My Wishlist</a>");
+        </script>
+
+        <a class="w-nav-link navedited"
         href="help">FAQ</a>
-      </nav>
+
+        <script>
+        if(getCookie("username") != "")
+           document.write("<a class=\"w-nav-link navedited\" href=\"\/\" onclick=\"logout();\">Logout</a>");
+        </script>
       <div class="w-nav-button">
         <div class="w-icon-nav-menu"></div>
       </div>
@@ -41,8 +53,10 @@
   <div class="w-nav" data-collapse="medium" data-animation="default" data-duration="400" data-contain="1"></div>
   <img class="imageblock" id="imageURL" src={{imageURL}} width="205" alt="image">
   <div>
-
-<h3 style="text-align: center; text-decoration:underline;" id="newItemWishlist">Add to Wish List</h3>
+  <script>
+    if(getCookie("username") != "")
+         document.write("<h3 style=\"text-align: center; text-decoration:underline;\" id=\"newItemWishlist\">Add to Wish List</h3>");
+  </script>
 </div>
 
 

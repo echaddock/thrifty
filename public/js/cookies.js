@@ -2,6 +2,7 @@
 function setCookie(cname,cvalue)
 {
   document.cookie = cname + "=" + cvalue + ";";
+  console.log(cname);
 }
 
 function getCookie(cname)
@@ -18,12 +19,12 @@ function getCookie(cname)
 
 function checkCookie()
 {
-  var user=getCookie("username");
-  if (user!="")
+  var user=getCookie("justLoggedIn");
+  if (user!="0")
   {
      systemMessageInit();
      systemMessage.sendMessage(0, 'You have successfully signed in!');
-     document.cookie = "username=;";
+     document.cookie = "justLoggedIn=0;";
   }
 }
 
@@ -93,3 +94,7 @@ systemMessage.prototype.sendMessage = function(type, message){
 function insertAfter(referenceNode, newNode) {
     referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
 }
+
+   function logout() {
+     setCookie("username", "");
+   }

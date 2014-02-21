@@ -39,7 +39,7 @@
 
           <div class="w-container navedited">
             <a class="w-nav-brand navedited"></a>
-            <nav class="w-nav-menu navedited" role="navigation"><a class="w-nav-link navedited" href="/">Home</a><a class="w-nav-link navedited" href="browse">Browse</a><a class="w-nav-link navedited" href="findus">Find Us</a><a class="w-nav-link navedited" href="calendar">Calendar</a><a class="w-nav-link navedited" href="wishlist">My Wishlist</a>
+            <nav class="w-nav-menu navedited" role="navigation"><a class="w-nav-link navedited" href="/">Home</a><a class="w-nav-link navedited" href="browse">Browse</a><a class="w-nav-link navedited" href="findus">Find Us</a><a class="w-nav-link navedited" href="calendar">Calendar</a>
               <a
               class="w-nav-link" href="help">FAQ</a>
             </nav>
@@ -59,15 +59,13 @@
         <center><button style="background-color:#93c0bd" class="button" id="not1" type="submit">Submit</button></center>
 
       </form>
-
-
-
     </div>
 
     <script type="text/javascript">
       function setAndRedirect() {
          var name = $("#email").val();
          setCookie("username", name);
+         setCookie("justLoggedIn", 1)
          window.location.href='/browse';
       }
     </script>
