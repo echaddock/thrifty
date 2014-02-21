@@ -40,22 +40,24 @@
   <div class="w-nav" data-collapse="medium" data-animation="default" data-duration="400"></div>
   <div class="w-nav" data-collapse="medium" data-animation="default" data-duration="400" data-contain="1"></div>
   <img class="imageblock" id="imageURL" src={{imageURL}} width="205" alt="image">
-  <h4>Information</h4><button style="background-color:#93c0bd;"class="button wishlistbutton" id="newItemWishlist">+</button>
-  <p id="itemPrice">Price: {{price}}</p>
-    <p id="itemSize">Size: {{size}}</p>
-    <p id="itemCondition">Condition: {{condition}}</p>
-    <p id="itemColor">Color: {{color}}</p>
+<button style="background-color:#93c0bd;margin-right:20%;margin-top:5%;"class="button wishlistbutton" id="newItemWishlist">+</button><h3 style="margin-left:40%;">Add to wishlist</h3>
+  <div>
+  <h4 style="text-align:center;">Information</h4>
+  <p style="text-align:center;"id="itemPrice">Price: {{price}}</p>
+    <p style="text-align:center;"id="itemSize">Size: {{size}}</p>
+    <p style="text-align:center;"id="itemCondition">Condition: {{condition}}</p>
+    <p style="text-align:center;"id="itemColor">Color: {{color}}</p>
   <div class="w-form">
     <form name="email-form" data-name="Email Form" method="post" data-redirect="../response">
-      <label class="formlabel" for="name">Have questions about this item? Ask us here!</label>
+      <label style="text-align:center;"class="formlabel" for="name">Have questions? Ask us here!</label>
       <input class="w-input" type="text" placeholder="Write your question here!" name="name" data-name="Name"></input>
-      <input style="background-color: #93c0bd;"class="w-button button submitbutton" type="submit" value="Submit" data-wait="Please wait..."></input>
+      <center><input style="background-color: #93c0bd;"class="w-button button submitbutton" type="submit" value="Submit" data-wait="Loading"></center></input>
     </form>
     <div class="w-form-done">
-      <p>Thank you! Your submission has been received!</p>
+      <p>Thank you for your submission!</p>
     </div>
     <div class="w-form-fail">
-      <p>Oops! Something went wrong while submitting the form :(</p>
+      <p>Something went wrong while submitting the form :(</p>
     </div>
   </div>
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
