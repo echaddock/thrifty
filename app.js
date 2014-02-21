@@ -63,7 +63,7 @@ app.get('/login', login.view);
 app.get('/itemdetail/:name', itemdetail.viewItem);
 app.get('/response', response.view);
 app.post('/wishlist/new', wishlist.addToWishlist);
-app.post('/wishlist/:id/delete', wishlist.deleteFromWishlist);
+app.post('/wishlist/delete', wishlist.deleteFromWishlist);
 
 // Example route
 // app.get('/users', user.list);
