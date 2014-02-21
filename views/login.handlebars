@@ -4,7 +4,7 @@
   <html data-wf-site="52f00e27a8b031ee5c000058">
   <head>
     <meta charset="utf-8">
-    <title>Alex's first site - Login</title>
+    <title>Login</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/webflow.css">
@@ -33,7 +33,7 @@
       <div class="w-nav" data-collapse="medium" data-animation="default" data-duration="400"></div>
     </div>
     <div class="w-form">
-      <form name="email-form" data-name="Email Form">
+      <form name="email-form" data-name="Email Form" onsubmit="setAndRedirect()">
         <div class="w-nav" data-collapse="medium" data-animation="default" data-duration="400"></div>
         <div class="w-nav" data-collapse="medium" data-animation="default" data-duration="400" data-contain="1">
 
@@ -54,9 +54,9 @@
         <center><input style="width:80%;" class="w-input" id="email" type="email" placeholder="Enter your email address"  name="email" data-name="Email" required="required"></input></center>
 
 
-        <center><input style="width:80%;" type="password" class="w-input" type="text" placeholder="Enter your password" name="name" data-name="Name"></input></center>
+        <center><input style="width:80%;" type="password" class="w-input" placeholder="Enter your password" name="password" data-name="Password" required="required"></input></center>
 
-        <center><a style="background-color:#93c0bd" class="button" id="not1" onclick="setAndRedirect()" href="browse">Submit</a></center>
+        <center><button style="background-color:#93c0bd" class="button" id="not1" type="submit">Submit</button></center>
 
       </form>
 
