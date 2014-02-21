@@ -1,7 +1,7 @@
 var data =require('../data.json')['group'];
 
 exports.viewItem = function(req, res){
-	var name = req.params.name;
+	   var name = req.params.name;
     var price, size, condition, color;
 
   for(var i = 0,len=data.length; i<len; i++) //0 or 1

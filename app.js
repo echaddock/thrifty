@@ -7,6 +7,8 @@ var express = require('express');
 var http = require('http');
 var path = require('path');
 var handlebars = require('express3-handlebars')
+var mongoose = require('mongoose');
+
 
 var index = require('./routes/index'),
     browse = require('./routes/browse'),
@@ -20,6 +22,13 @@ var index = require('./routes/index'),
 
 // Example route
 // var user = require('./routes/user');
+
+// Connect to the Mongo database, whether locally or on Heroku
+// MAKE SURE TO CHANGE THE NAME FROM 'lab7' TO ... IN OTHER PROJECTS
+var local_database_name = 'thrifty';
+var local_database_uri  = 'mongodb://localhost/' + local_database_name
+var database_uri = process.env.MONGOLAB_URI || local_database_uri
+mongoose.connect(database_uri);
 
 var app = express();
 
@@ -53,6 +62,8 @@ app.get('/help', help.view);
 app.get('/login', login.view);
 app.get('/itemdetail/:name', itemdetail.viewItem);
 app.get('/response', response.view);
+app.post('/wishlist/new', wishlist.addToWishlist);
+app.post('/wishlist/:id/delete', wishlist.deleteFromWishlist);
 
 // Example route
 // app.get('/users', user.list);
