@@ -34,12 +34,12 @@ exports.addToWishlist = function(req, res) {
   }
 
 exports.deleteFromWishlist = function(req, res) {
-  var projectID = req.params.id;
+  var name = req.body['name'];
 
   // find the project and remove it
   // YOU MUST send an OK response w/ res.send();
   models.Wishlist
-    .find({"_id": projectID})
+    .find({"name": name})
     .remove()
     .exec(deleteCallback);
 
