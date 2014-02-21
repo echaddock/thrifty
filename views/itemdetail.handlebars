@@ -40,13 +40,17 @@
   <div class="w-nav" data-collapse="medium" data-animation="default" data-duration="400"></div>
   <div class="w-nav" data-collapse="medium" data-animation="default" data-duration="400" data-contain="1"></div>
   <img class="imageblock" id="imageURL" src={{imageURL}} width="205" alt="image">
-<button style="background-color:#93c0bd;margin-right:20%;margin-top:5%;"class="button wishlistbutton" id="newItemWishlist">+</button><h3 style="margin-left:40%;">Add to wishlist</h3>
   <div>
-  <h4 style="text-align:center;">Information</h4>
-  <p style="text-align:center;"id="itemPrice">Price: {{price}}</p>
-    <p style="text-align:center;"id="itemSize">Size: {{size}}</p>
-    <p style="text-align:center;"id="itemCondition">Condition: {{condition}}</p>
-    <p style="text-align:center;"id="itemColor">Color: {{color}}</p>
+<button style="background-color:#93c0bd;margin-right:40%;margin-top:5%;"class="button wishlistbutton" id="newItemWishlist">+</button>
+</div>
+
+
+  <div>
+  <h4>Information</h4>
+  <p id="itemPrice">Price: {{price}}</p>
+    <p id="itemSize">Size: {{size}}</p>
+    <p id="itemCondition">Condition: {{condition}}</p>
+    <p id="itemColor">Color: {{color}}</p>
   <div class="w-form">
     <form name="email-form" data-name="Email Form" method="post" data-redirect="../response">
       <label style="text-align:center;"class="formlabel" for="name">Have questions? Ask us here!</label>
