@@ -1,0 +1,45 @@
+{
+ "faq": [
+  {
+    "question":"What is Thrifty?",
+    "answer": "Thrifty is a mobile thrift truck that comes to college campuses buying and selling used and vintage clothing. It's the thrift shop on wheels!"
+  },
+
+  {
+     "question":"How do I know where the Thrifty truck will be?",
+     "answer": "Drop the menu bar and go to \"Calendars\""
+  },
+
+  {
+     "question":"On what social media sites can I find you all?",
+     "answer": "You can find us on Facebook & Twitter."
+  },
+
+  {
+     "question":"How can we sign up to get updates about upcoming events?",
+     "answer": "You can sign up at the home page with just your name and email."
+  },
+
+  {
+     "question":"What is the main purpose of Thrifty?",
+     "answer": "The main purpose is to promote the thrifty store community by providing them a way to sell their items to the audiences interested in thrift clothes. "
+  },
+
+  {
+     "question":"Where are you mostly located?",
+     "answer": "This year we are promoting our college awareness trip, by only visiting San Diego college campuses."
+  },
+
+  {
+     "question":"Where can I report bugs regarding the app?",
+     "answer": "You can report it by sending us a email at faq@thrifty.com"
+  },
+
+  {
+     "question":"Where can I report bugs regarding the app?",
+     "answer": "You can report it by sending us a email at faq@thrifty.com"
+  }
+
+]
+}
+
