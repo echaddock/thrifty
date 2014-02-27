@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <!-- This site was created in Webflow. http://www.webflow.com-->
 <!-- Last Published: Wed Feb 12 2014 03:00:05 GMT+0000 (UTC) -->
-<html data-wf-site="52f00e27a8b031ee5c000058">
-<head>
+<html data-wf-site="52f00e27a8b031ee5c000058"> <head>
   <meta charset="utf-8">
   <title>Help</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -48,33 +47,12 @@
   </div>
 
   <h1>FAQ</h1>
-
-    <div class="thriftytext">Q: What is Thrifty?!</div>
-    A: Thrifty is a truck that travels around the world buying and selling clothes. 
-
-    <div class="thriftytext">Q: How do I know where the Thrifty truck will be?</div>
-    A: Drop the menu bar and go to "Calendars"
-
-
-    <div class="thriftytext">Q: On what social media sites can I find you all?</div>
-    A: You can finds us on Facebook & Twitter.
-
-    <div class="thriftytext">Q: How can we sign up?</div>
-    A: You can sign up at the home page with just your name and email.  
-
-    <div class="thriftytext">Q: What is the main purpose of Thrifty?</div>
-    A: The main purpose is to promote the thrifty store community by providing them a way to sell their items to the audiences interested in thrift clothes. 
-
-    <div class="thriftytext">Q: Where are you mostly located? </div>
-    A: This year we are promoting our college awareness trip, by only visiting San Diego college campuses.
-
-    <div class="thriftytext">Q: Where can I report bugs regarding the app?</div>
-    A: You can report it by sending us a email at faq@thifty.com
-
-    <div class="thriftytext">Q: What questions do you have? </div>
-    A: Tell us so we can update the FAQ page even more! :)
-
-
+  {{#each faq}}
+    <div class="row" style="margin-left:10px; margin-right:10px;">
+    <div class="thriftytext">Q: {{question}}</div>
+    A: {{answer}} 
+    </div>
+  {{/each}}
 
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script type="text/javascript" src="js/webflow.js"></script>
